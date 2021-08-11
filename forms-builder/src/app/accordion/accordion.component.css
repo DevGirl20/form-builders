@@ -1,0 +1,20 @@
+@import url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fru%2Fpng-tvxdp&psig=AOvVaw1OSq_O6M_PM88o0JMSHTKK&ust=1628774278530000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNDCqpGHqfICFQAAAAAdAAAAABAD");
+
+.cardion{
+    margin:50px ;
+    width: 500px;
+}
+.cardion div{
+    margin-bottom: 20px;
+
+}
+div{
+    width: 100%;
+    box-shadow: 0 1px 3px #808080 ;
+    font-size: 15px;
+    font-weight: 400;
+    color:black ;
+    background-color: #fff;
+    border-radius: 3px;
+
+}

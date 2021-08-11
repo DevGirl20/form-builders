@@ -1,0 +1,13 @@
+
+
+<div class="cardHeader">
+    <div class="headerTitle">
+        {{title}}
+    </div>
+    <div class="arrow"><i class="arrowDown"></i></div>
+</div>
+<div *ngIf="showBody">
+    <div class="cardBody">
+        <ng-content> </ng-content>
+    </div>
+</div>
