@@ -1,4 +1,9 @@
+@import url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fru%2Fpng-tvxdp&psig=AOvVaw1OSq_O6M_PM88o0JMSHTKK&ust=1628774278530000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNDCqpGHqfICFQAAAAAdAAAAABAD");
 
+.item {
+    width: calc(100%/3);
+    
+}
 .cardHeader{
     border-bottom: 1px solid rgb(255, 255, 255);
     min-height: 30px;

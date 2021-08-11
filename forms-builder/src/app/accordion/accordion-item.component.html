@@ -1,13 +1,19 @@
 
-
+<div class="container">
+    <div class="item">
 <div class="cardHeader">
     <div class="headerTitle">
         {{title}}
     </div>
     <div class="arrow"><i class="arrowDown"></i></div>
 </div>
-<div *ngIf="showBody">
+<div [@smoothCollapse]="!showBody? 'initial': 'final'" >
     <div class="cardBody">
         <ng-content> </ng-content>
     </div>
+</div>
+</div>
+
+<div class="item"></div>
+<div class="item"></div>
 </div>
