@@ -1,0 +1,27 @@
+
+.cardHeader{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    min-height: 30px;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center ;
+    padding: 10px;
+}
+.headerTitle{
+    overflow-wrap: break-word;
+    overflow: auto;
+    width: 100%;
+    font-weight: 600;
+}
+.cardBody{
+    min-height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    line-height:24px ;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+.arrow{
+    font-size: 18px;
+}
